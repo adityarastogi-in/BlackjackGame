@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" height="32px">
+        <h1>Blackjack</h1>
+    </header>
+    <div class="game-area">
+        <p id="message-el">Want to play a round???</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <div class="button">
+            <button onclick="startGame()">START GAME</button>
+            <button onclick="newCard()">NEW CARD</button>
+        </div>
+        <p id="warning-el" height="0px"></p>
+        <div class="player-el">
+            <div>
+                <input type="text" id="playerName" name="playerName" value="PLAYER-1" >
+            </div>
+            <div class="bet">
+                <p>RS.</p>
+                <input type="number" id="betMoney" name="betMoney" value="100">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5>-- Developed by: <a href="https://www.linkedin.com/in/aditya-rastogi-944b2028a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">© Aditya Rastogi</a> --</h5>
+        <h5> All rights reserved. This is made for general practice purpose.</h5>  
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
